@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.bebas {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+header {
+  background: url('./assets/HEADER.jpg');
+}
+
+nav {
+  max-width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.navbar_items {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar_items a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.navbar_btns{ 
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.navbar_btns button {
+  background: none;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.navbar_btns button img {
+  width: 1.5rem;
+}
+
+.navbar_btns button span {
+  display: block;
+  color: white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  font-size: 1rem;
+  padding: 0 .2rem;
+}
